@@ -6,7 +6,7 @@ import streamlit as st
 import pandas as pd
 import json
 from pathlib import Path
-
+from detection.detection_rules import detect_threats
 
 BASE_DIR = Path(__file__).resolve().parent
 sample_file = BASE_DIR / "data" / "sample_logs.csv"
