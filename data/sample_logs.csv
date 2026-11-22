@@ -1,0 +1,14 @@
+timestamp,source_ip,event_type,username,status,details
+2026-11-21 09:00:00,192.168.1.10,login,admin,success,Normal login
+2026-11-21 09:05:00,192.168.1.15,login,user1,success,Normal login
+2026-11-21 09:10:00,203.0.113.45,login,admin,failed,Invalid password
+2026-11-21 09:11:00,203.0.113.45,login,admin,failed,Invalid password
+2026-11-21 09:12:00,203.0.113.45,login,admin,failed,Invalid password
+2026-11-21 09:13:00,203.0.113.45,login,admin,failed,Invalid password
+2026-11-21 09:20:00,192.168.1.20,login,user2,success,Normal login
+2026-11-21 09:25:00,198.51.100.77,port_scan,unknown,detected,Multiple ports accessed
+2026-11-21 09:30:00,192.168.1.25,login,user3,success,Normal login
+2026-11-21 09:35:00,198.51.100.88,malware_detected,unknown,detected,Simulated malware detection
+2026-11-21 09:40:00,192.168.1.30,login,user4,success,Normal login
+2026-11-21 09:45:00,203.0.113.90,phishing_reported,user5,detected,Simulated phishing report
+2026-11-21 09:50:00,192.168.1.35,login,user6,success,Normal login
